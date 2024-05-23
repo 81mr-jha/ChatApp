@@ -14,7 +14,7 @@ function Avatar(){
 
 export const Click = (props) => {
 
-    // const avatar = "./favicon.png";
+    const avatar = "./favicon.png";
     // const description = 'Favicon image';
 
     return (
@@ -26,10 +26,11 @@ export const Click = (props) => {
         <span> 
         Hello {props.name} - {props.wife}
         {props.children}
-        </span>
+        </span>*/}
 
         <img
-         src={avatar} alt={description} /> */}
+         src={avatar} alt={description} /> 
+
 
          <Avatar  />
 
